@@ -1,0 +1,42 @@
+.message-container {
+  max-width: 120rem;
+  display: flex;
+  gap: 9rem;
+  padding: 2rem 2rem;
+}
+.message-box {
+  padding: 1.2rem 1.2rem;
+  border-radius: 2rem;
+  background-color: rgb(234, 230, 230);
+}
+.message {
+  font-size: 1.2rem;
+}
+.user {
+  font-size: 1.2rem;
+}
+.date {
+  font-size: 1.2rem;
+}
+.form-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  align-items: center;
+}
+form {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  border-radius: 2rem;
+  background-color: rgb(234, 230, 230);
+  flex-direction: column;
+  padding: 2rem 2rem;
+}
+button {
+  align-self: center;
+}
+form div {
+  padding: 1rem 1rem;
+}
